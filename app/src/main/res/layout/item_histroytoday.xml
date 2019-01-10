@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <View
+            android:id="@+id/construction_detail_top_line"
+            android:layout_width="2dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="35dp"
+            android:background="#3D3E3E" />
+
+        <View
+            android:id="@+id/construction_detail_other_line"
+            android:layout_width="2dp"
+            android:layout_height="10000dp"
+            android:layout_alignBottom="@+id/construction_detail_layout"
+            android:layout_below="@id/construction_detail_top_line"
+            android:layout_marginLeft="35dp"
+            android:background="#3D3E3E" />
+
+
+        <ImageView
+            android:id="@+id/construction_detail_iv_circular"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/icon_point" />
+        <LinearLayout
+            android:id="@+id/construction_detail_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/construction_detail_iv_circular"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/construction_detail_tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+
+                android:text="15：40"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+               <ImageView
+                   android:id="@+id/construction_detail_iv_img"
+                 android:layout_gravity="center"
+                 android:layout_width="320dp"
+                 android:layout_height="240dp"
+
+                   />
+            <TextView
+                android:id="@+id/construction_detail_tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="标题"
+                android:textSize="20sp"
+                android:textColor="@color/mask_tags_16"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/construction_detail_tv_data"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:text="内容内容"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

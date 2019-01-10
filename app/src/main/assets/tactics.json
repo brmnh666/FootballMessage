@@ -1,0 +1,128 @@
+{
+    "tactics": [
+      {
+	  "tactics_name":"如何防守定位球",
+	  "tactics_img":"http://www.hinews.cn/pic/0/16/06/75/16067554_625262.jpg",
+	  "tactics_content":"英格兰国家队教练队教你防守秘诀",
+	  "tactics_url":"/practise/tactics/tacitcs_1.html",
+	  "min_tactics":"0",
+	  "min_readtime":"300",
+	  "spirit":"10",
+	  "credit":"1"
+	  
+	  },
+	   {
+		"tactics_name":"哈利凯恩：如何提升速度",
+	  "tactics_img":"http://pic2.52pk.com/files/170104/2165322_133121_1.jpg",
+	  "tactics_content":"一个会跑的前锋,运气都不会太差",
+	  "tactics_url":"/practise/tactics/tacitcs_2.html",
+	  "min_tactics":"0",
+	  "min_readtime":"200",
+	  "spirit":"15",
+	  "credit":"1"
+	  
+	  },
+	   {
+	  "tactics_name":"做好现代足球后卫的秘诀",
+	  "tactics_img":"http://p3.img.cctvpic.com/photoworkspace/contentimg/2013/08/08/2013080809000260216.jpg",
+	  "tactics_content":"大卫.路易斯为什么喜欢控球",
+	  "tactics_url":"/practise/tactics/tacitcs_3.html",
+	  "min_tactics":"0",
+	  "min_readtime":"300",
+	  "spirit":"10",
+	  "credit":"1"
+	  
+	  
+	  },
+	  
+	    {
+	  "tactics_name":"优秀足球教练的五个管理技巧",
+	  "tactics_img":"http://img1.gtimg.com/cq/pics/hv1/139/125/2291/149004289.jpg",
+	  "tactics_content":"足球教练入门必备",
+	  "tactics_url":"/practise/tactics/tacitcs_4.html",
+	  "min_tactics":"0",
+	  "min_readtime":"300",
+	  "spirit":"10",
+	  "credit":"1"
+	  
+	  
+	  },
+	  
+	  {
+	  "tactics_name":"顶级后卫的5个特质",
+	  "tactics_img":"http://c2.hoopchina.com.cn/uploads/star/event/images/160628/2fb66219c4662325f54e1c3e43327f2274d2961c.jpg",
+	  "tactics_content":"曼联传奇中后卫里奥.费迪南德的金玉良言",
+	  "tactics_url":"/practise/tactics/tacitcs_5.html",
+	  "min_tactics":"0",
+	  "min_readtime":"200",
+	  "spirit":"13",
+	  "credit":"1"
+	  
+	  
+	  },
+	  
+	  
+	  {
+	  "tactics_name":"保持你的控球权",
+	  "tactics_img":"http://img5.imgtn.bdimg.com/it/u=996259012,121575211&fm=11&gp=0.jpg",
+	  "tactics_content":"英格兰中超威尔希尔的控球经验",
+	  "tactics_url":"/practise/tactics/tacitcs_6.html",
+	  "min_tactics":"0",
+	  "min_readtime":"300",
+	  "spirit":"17",
+	  "credit":"2"
+	  
+	  
+	  },
+	  
+	   {
+	  "tactics_name":"足球教练经常犯的5个常识性错误",
+	  "tactics_img":"http://00imgmini.eastday.com/mobile/20180922/20180922173451_d002500527c78dc096d5b019127b638f_3.jpeg",
+	  "tactics_content":"各级别足球教练必看",
+	  "tactics_url":"/practise/tactics/tacitcs_7.html",
+	  "min_tactics":"0",
+	  "min_readtime":"300",
+	  "spirit":"9",
+	  "credit":"1"
+	  
+	  
+	  },
+	  
+	   {
+	  "tactics_name":"大赛前的准备",
+	  "tactics_img":"http://c1.hoopchina.com.cn/uploads/star/event/images/130709/a40d130ec48a5d8224b1a5a03253cf7bf62accee.jpg",
+	  "tactics_content":"鲁尼分享大赛前他是如何将自己调整到自己最佳状态",
+	  "tactics_url":"/practise/tactics/tacitcs_8.html",
+	  "min_tactics":"0",
+	  "min_readtime":"300",
+	  "spirit":"9",
+	  "credit":"1"
+	  
+	  },
+	  
+	   {
+	  "tactics_name":"守门员如何控制比赛时间",
+	  "tactics_img":"http://c1.hoopchina.com.cn/uploads/star/event/images/150604/dc92ce5acb3d1c8d17f95cfe2ff82f34e207e5d0.jpg",
+	  "tactics_content":"拖延时间没错,可是吃黄牌就不对了",
+	  "tactics_url":"/practise/tactics/tacitcs_9.html",
+	  "min_tactics":"0",
+	  "min_readtime":"300",
+	  "spirit":"9",
+	  "credit":"1"
+	  
+	  
+	  },
+	  
+	   {
+	  "tactics_name":"如何保护球权",
+	  "tactics_img":"http://c1.hoopchina.com.cn/uploads/star/event/images/180704/e3ffdeffca47ad9fa1afa13e3ba96e7662bb0607.jpg",
+	  "tactics_content":"听听比利时国脚维特塞尔的建议",
+	  "tactics_url":"/practise/tactics/tacitcs_10.html",
+	  "min_tactics":"0",
+	  "min_readtime":"300",
+	  "spirit":"15",
+	  "credit":"2"
+	  
+	  }
+		]
+}

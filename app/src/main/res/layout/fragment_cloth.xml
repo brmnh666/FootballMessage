@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <banner.CustomBanner
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/custombanner_clothing"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:indicatorStyle="ORDINARY"
+        app:indicatorGravity="CENTER"
+        app:indicatorSelectRes="@drawable/shape_point_select"
+        app:indicatorUnSelectRes="@drawable/shape_point_unselect"
+        app:indicatorInterval="5dp">
+
+    </banner.CustomBanner>
+
+
+    <android.support.v7.widget.CardView
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:targetApi="lollipop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:id="@+id/clothfragment_shoes"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        app:cardPreventCornerOverlap="false"
+        app:cardElevation="10dp"
+        android:background="@color/mask_tags_13"
+
+        >
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/clothfragment_shoes_img"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/icon_shoes"
+
+                />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_black"
+                android:text="球鞋"
+                android:textSize="40sp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:targetApi="lollipop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:id="@+id/clothfragment_clothes"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        app:cardPreventCornerOverlap="false"
+        app:cardElevation="10dp"
+        android:background="@color/mask_tags_13"
+
+        >
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/clothfragment_clothes_img"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+               android:src="@drawable/icon_cloth"
+
+                />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_black"
+                android:text="球衣"
+                android:textSize="40sp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+    </ScrollView>

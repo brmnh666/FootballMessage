@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/details_top_bar_layout">
+
+    </include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <banner.CustomBanner
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/clothes_detail_custombanner"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:indicatorStyle="ORDINARY"
+                app:indicatorGravity="CENTER"
+                app:indicatorSelectRes="@drawable/shape_point_select"
+                app:indicatorUnSelectRes="@drawable/shape_point_unselect"
+                app:indicatorInterval="5dp">
+
+            </banner.CustomBanner>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/clothes_detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="bayern"
+                android:layout_gravity="center"
+                />
+            <!--品牌-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                >
+                <TextView
+                    android:textColor="@color/color_black"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="品牌："
+                    />
+                <TextView
+                    android:id="@+id/clothes_detail_brand"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="adidas"
+                    />
+            </LinearLayout>
+            <!--品牌-->
+
+            <!--生产地-->
+            <LinearLayout
+                android:textColor="@color/color_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                >
+                <TextView
+                    android:textColor="@color/color_black"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="产地："
+                    />
+                <TextView
+                    android:id="@+id/clothes_detail_yieldly"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="中国"
+                    />
+            </LinearLayout>
+            <!--生产地-->
+
+            <!--材质-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp">
+                <TextView
+                    android:textColor="@color/color_black"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="价格(¥)："
+                    />
+                <TextView
+                    android:id="@+id/clothes_detail_price"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="222"
+                    />
+            </LinearLayout>
+            <!--材质-->
+
+            <android.support.v7.widget.CardView
+
+                tools:targetApi="lollipop"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/cv_clothes_collection"
+                app:cardCornerRadius="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardPreventCornerOverlap="false"
+                app:cardElevation="10dp"
+
+
+                >
+
+                <TextView
+                    android:id="@+id/tv_clothes_collection"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/color_black"
+                    android:textSize="20sp"
+                    android:text="收藏"
+
+                    />
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <!--注-->
+            <TextView
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="***感谢偶偶足球装备网提供数据支持***"
+                android:textColor="@color/mask_tags_17"
+                />
+            <!--注-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

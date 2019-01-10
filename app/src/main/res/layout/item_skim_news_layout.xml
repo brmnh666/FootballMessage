@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+新闻页面item
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_skim"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+
+        <TextView
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/item_skim_news_title"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:textColor="@color/color_black"
+            android:text="早报：神灯照耀老特拉福德"/>
+
+
+
+        <TextView
+            android:paddingTop="20dp"
+            android:id="@+id/item_skim_news_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="几分钟之前"
+            android:gravity="right"
+            android:textColor="@color/mask_tags_14" />
+
+    </LinearLayout>
+
+</LinearLayout>

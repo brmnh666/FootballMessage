@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_white">
+    <include layout="@layout/details_top_bar_layout"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/skill_name_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="内外脚背拨球"
+                android:textColor="@color/color_black"
+                android:textSize="20sp" />
+
+             <com.dl7.player.media.IjkPlayerView
+                 android:id="@+id/player_view"
+                 android:layout_width="match_parent"
+                 android:layout_height="200dp">
+
+             </com.dl7.player.media.IjkPlayerView>
+
+            <WebView
+                android:id="@+id/practise_skill_webview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </WebView>
+           <Button
+               android:id="@+id/practise_skill_btn"
+               android:layout_margin="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="学会了"
+               android:background="@color/mask_tags_2"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

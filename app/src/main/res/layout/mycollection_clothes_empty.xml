@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mycollection_clothes_empty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_white"
+    android:visibility="visible"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/empty_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_histroytoday_empty"/>
+
+    <TextView
+        android:id="@+id/empty_text"
+        android:layout_marginTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您暂时没有球衣收藏,快去收藏吧"
+        android:textSize="20sp"
+        android:textColor="@color/color_tab_title"
+        />
+
+</LinearLayout>

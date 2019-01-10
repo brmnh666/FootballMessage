@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ying.administrator.footballmessagedemo01"
+    >
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.WelcomeActivity" android:theme="@style/AppTheme.NoActionBar"  >
+        </activity>
+        <activity android:name=".activity.MainActivity" android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".activity.DetailsActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+   <activity android:name=".activity.AboutMeActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+   <activity android:name=".activity.ShoesActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+    <activity android:name=".activity.SuggestFeedbackActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".activity.HistoryToDayActvity" android:theme="@style/AppTheme.NoActionBar" ></activity>
+    <activity android:name=".activity.ShoesDetailsActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+<activity android:name=".activity.ClothesActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+
+    <activity android:name=".activity.ClothesDetailACtivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+<activity android:name=".activity.PractiseActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+    <activity android:name=".activity.PractiseTacticsDetailActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+   <activity android:name=".activity.PractiseSkillDetailActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+    <activity android:name=".activity.LoginActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+<activity android:name=".activity.ModifyMyInfoActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+
+    <activity android:name=".activity.MyCollectActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+    <activity android:name=".activity.SkimHistroyActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+    <activity android:name=".activity.FirstCompleteMyInfoActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+    <activity android:name=".activity.SplashActivity" android:theme="@style/AppTheme.NoActionBar.splash">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"
+                />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+    </activity>
+    </application>
+
+
+</manifest>

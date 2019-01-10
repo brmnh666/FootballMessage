@@ -1,0 +1,38 @@
+{
+    "tactics": [
+      {
+	  "skill_name":"内外脚背拨球",
+	  "skill_img":"http://www.hinews.cn/pic/0/16/06/75/16067554_625262.jpg",
+	  "skill_video_url":"/practise/skill/video/001.mp4",
+	  "skill_content_url":"/practise/skill/skill_1.html",
+	  "min_skill":"0",
+	  "min_readtime":"300",
+	  "skill":"5",
+	  "worth":"1"
+	  
+	  },
+	  {
+	  "skill_name":"横拉夹球起球",
+	  "skill_img":"http://www.hinews.cn/pic/0/16/06/75/16067554_625262.jpg",
+	  "skill_video_url":"/practise/skill/video/002.mp4",
+	  "skill_content_url":"/practise/skill/skill_2.html",
+	  "min_skill":"0",
+	  "min_readtime":"200",
+	  "skill":"10",
+	  "worth":"1"
+	  
+	  },
+	   {
+	  "skill_name":"后跟转脚趾假动作",
+	  "skill_img":"http://www.hinews.cn/pic/0/16/06/75/16067554_625262.jpg",
+	  "skill_video_url":"/practise/skill/video/003.mp4",
+	  "skill_content_url":"/practise/skill/skill_3.html",
+	  "min_skill":"0",
+	  "min_readtime":"200",
+	  "skill":"10",
+	  "worth":"2"
+	  
+	  }
+	  
+		]
+}

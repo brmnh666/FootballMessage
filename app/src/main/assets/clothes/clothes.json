@@ -1,0 +1,198 @@
+{
+    "clothes": [
+      {
+			"clothes_name":" 2018-19皇家马德里主场",
+			"clothes_brand":"adidas",
+			"clothes_yieldly":"柬埔寨",
+			"clothes_price":"999",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2018/1008/20181008025559960.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2018/1008/20181008025559960.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2018/1008/20181008025600668.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2018/1008/20181008025600912.jpg"
+		}
+	         ,{
+			"clothes_name":"2018-19巴塞罗那第二客场",
+			"clothes_brand":"Nike",
+			"clothes_yieldly":"泰国",
+			"clothes_price":"1099",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2018/1008/20181008102554185.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2018/1008/20181008102554185.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2018/1008/20181008102555758.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2018/1008/20181008102556565.jpg"
+		}
+
+	         ,{
+			"clothes_name":" 2018-19切尔西客场",
+			"clothes_brand":"Nike",
+			"clothes_yieldly":"泰国",
+			"clothes_price":"1099",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2018/0929/20180929054754508.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2018/0929/20180929054754508.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2018/0929/20180929054755359.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2018/0929/20180929054755781.jpg"
+		       }
+	       ,{
+			"clothes_name":"2018-19切尔西第二客场",
+			"clothes_brand":"Nike",
+			"clothes_yieldly":"泰国",
+			"clothes_price":"899",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2018/0929/20180929040616877.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2018/0929/20180929040616877.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2018/0929/20180929040617609.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2018/0929/20180929040617332.jpg"
+		}
+	       ,{
+			"clothes_name":"2018-19巴萨罗那主场",
+			"clothes_brand":"Nike",
+			"clothes_yieldly":"越南",
+			"clothes_price":"899",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2018/0524/20180524022105446.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2018/0524/20180524022105446.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2018/0524/20180524022105606.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2018/0524/20180524022106534.jpg"
+		}
+	       ,{
+	   		"clothes_name":"2018世界杯西班牙国家队",
+			"clothes_brand":"adidas",
+			"clothes_yieldly":"柬埔寨",
+			"clothes_price":"999",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2017/1120/20171120121950256.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2017/1120/20171120121937268.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2017/1120/20171120121932387.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2017/1120/20171120121920686.jpg"
+		}
+	,{
+			"clothes_name":"2017-18AC米兰主场",
+			"clothes_brand":"adidas",
+			"clothes_yieldly":"柬埔寨",
+			"clothes_price":"999",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2017/0724/20170724042309818.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2017/0724/20170724042309818.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2017/0724/20170724042309638.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2017/0724/20170724042310542.jpg"
+		}
+	     ,{
+			"clothes_name":" 2018-19阿森纳主场",
+			"clothes_brand":"Puma",
+			"clothes_yieldly":"格鲁吉亚",
+			"clothes_price":"1099",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2018/0929/20180929102612105.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2018/0929/20180929102612105.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2018/0929/20180929102612105.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2018/0929/20180929102613105.jpg"
+		}
+
+	           ,{
+			"clothes_name":"2018世界杯德国国家队主场",
+			"clothes_brand":"adidas",
+			"clothes_yieldly":"柬埔寨",
+			"clothes_price":"999",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2017/1120/20171120055311562.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2017/1120/20171120055308611.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2017/1120/20171120055300122.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2017/1120/20171120055258934.jpg"
+		       }
+
+
+	      ,{
+			"clothes_name":"2018世界杯意大利国家队主场",
+			"clothes_brand":"Puma",
+			"clothes_yieldly":"越南",
+			"clothes_price":"999",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2017/1117/20171117022937321.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2017/1117/20171117022942452.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2017/1117/20171117022948584.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2017/1117/20171117022953549.jpg"
+		}
+
+
+	       ,{
+			"clothes_name":"2017-18多特蒙德主场",
+			"clothes_brand":"Puma",
+			"clothes_yieldly":"格鲁吉亚",
+			"clothes_price":"999",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2017/0725/20170725124619406.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2017/0725/20170725124619346.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2017/0725/20170725124619104.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2017/0725/20170725124620882.jpg"
+		}
+
+
+	       ,{
+			"clothes_name":"2017-18利物浦客场",
+			"clothes_brand":"New balance",
+			"clothes_yieldly":"中国",
+			"clothes_price":"999",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2017/0718/20170718045813343.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2017/0718/20170718045813792.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2017/0718/20170718045814338.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2017/0718/20170718045814796.jpg"
+		}
+
+
+	       ,{
+			"clothes_name":"2017-18利物浦主场",
+			"clothes_brand":"New balance",
+			"clothes_yieldly":"菲律宾",
+			"clothes_price":"999",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2017/0524/20170524063354118.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2017/0524/20170524063355409.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2017/0524/20170524063356577.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2017/0524/20170524063357409.jpg"
+		}
+
+
+	,{
+			"clothes_name":"2016-17摩纳哥队主场",
+			"clothes_brand":"Nike",
+			"clothes_yieldly":"泰国",
+			"clothes_price":"999",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2016/0815/20160815023217424.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2016/0815/20160815023217277.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2016/0815/20160815023218228.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2016/0815/20160815023218553.jpg"
+		}     ,{
+			"clothes_name":" 2016-17拜仁慕尼黑队主场",
+			"clothes_brand":"adidas",
+			"clothes_yieldly":"泰国",
+			"clothes_price":"999",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2016/0520/20160520101832979.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2016/0520/20160520101833683.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2016/0520/20160520101833462.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2016/0520/20160520101834490.jpg"
+		}
+	,{
+			"clothes_name":"2016-17利物浦主场",
+			"clothes_brand":"New balance",
+			"clothes_yieldly":"菲律宾",
+			"clothes_price":"999",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2016/0514/20160514021645218.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2016/0514/20160514021646408.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2016/0514/20160514021647285.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2016/0514/20160514021649359.jpg"
+		}
+	     ,{
+			"clothes_name":"2016-17多特蒙德队主场",
+			"clothes_brand":"Puma",
+			"clothes_yieldly":"格鲁吉亚",
+			"clothes_price":"999",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2016/0520/20160520120821972.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2016/0520/20160520120822666.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2016/0520/20160520120823847.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2016/0520/20160520120822340.jpg"
+		}
+	       ,{
+			"clothes_name":"2016-17欧洲杯法国国家队客场",
+			"clothes_brand":"Nike",
+			"clothes_yieldly":"泰国",
+			"clothes_price":"1099",
+			"clothes_cover_picture":"http://www.ouou.cn/uploadfile/2016/0328/20160328113102695.jpg",
+			"clothes_detail_picture1":"http://www.ouou.cn/uploadfile/2016/0328/20160328113103552.jpg",
+			"clothes_detail_picture2":"http://www.ouou.cn/uploadfile/2016/0328/20160328113105327.jpg",
+			"clothes_detail_picture3":"http://www.ouou.cn/uploadfile/2016/0328/20160328113105887.jpg"
+		}
+
+
+
+	]
+}

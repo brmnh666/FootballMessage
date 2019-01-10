@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_skill_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="10dp"
+    android:background="#fff"
+    android:elevation="10dp"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="10dp"
+   >
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+       android:layout_gravity="center"
+        android:id="@+id/skill_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/skill_name"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="内外脚背拨球"
+            android:textColor="@color/color_white"
+            android:textSize="25sp"
+            android:shadowColor="#ff000000"
+            android:shadowRadius="1"
+            android:shadowDx="10"
+            android:shadowDy="10"
+
+            />
+
+
+    </LinearLayout>
+</FrameLayout>
+
+
+</android.support.v7.widget.CardView>
+
+

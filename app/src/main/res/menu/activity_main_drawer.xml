@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/icon_collect"
+            android:icon="@drawable/icon_collect"
+            android:title="我的收藏" />
+        <item
+            android:id="@+id/icon_history"
+            android:icon="@drawable/icon_history"
+            android:title="浏览历史" />
+        <item
+            android:id="@+id/icon_feedback"
+            android:icon="@drawable/icon_feedback"
+            android:title="意见反馈" />
+        <item
+        android:id="@+id/icon_informationcenter"
+        android:icon="@drawable/icon_informationcenter"
+        android:title="消息中心" />
+
+
+        <item
+            android:id="@+id/icon_historyToday"
+            android:icon="@drawable/icon_historytoday"
+            android:title="历史今日" />
+
+        <item
+            android:id="@+id/icon_aboutme"
+            android:icon="@drawable/icon_aboutme"
+            android:title="关于我们" />
+        <item
+            android:id="@+id/icon_share"
+            android:icon="@drawable/icon_share"
+            android:title="分享" />
+
+        <item
+
+            android:id="@+id/icon_setting"
+            android:icon="@drawable/icon_setting"
+
+            android:title="设置" />
+
+    </group>
+
+
+</menu>

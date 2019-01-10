@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+
+
+    <!--顶部导航栏布局-->
+    <include layout="@layout/details_top_bar_layout" />
+
+
+
+
+    <FrameLayout
+        android:id="@+id/news_detail_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+        <include layout="@layout/news_detail_empty">
+
+        </include>
+    </FrameLayout>
+    <!--中间内容各种布局-->
+    <RelativeLayout
+        android:id="@+id/relative_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <!--底部Bar功能-->
+        <RelativeLayout
+            android:id="@+id/layout_bottom_bar"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/mask_tags_13">
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv_collection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="收藏"
+                android:gravity="center"
+                android:textColor="@color/color_white"
+                android:textSize="20sp"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ScrollView
+            android:layout_above="@id/layout_bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--中间内容-->
+
+
+                <!--文章内容-->
+                <WebView
+                    android:id="@+id/details_content"
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </WebView>
+
+
+
+        </ScrollView>
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@+id/prompt_framelayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <include layout="@layout/loading" />
+        <include layout="@layout/empty"/>
+        <include layout="@layout/error"/>
+    </FrameLayout>
+    
+</LinearLayout>

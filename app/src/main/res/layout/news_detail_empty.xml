@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/news_detail_empty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_white"
+    android:visibility="visible"
+    android:gravity="center" >
+
+<LinearLayout
+    android:layout_marginTop="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        >
+    </ProgressBar>
+
+    <TextView
+        android:layout_marginLeft="3dp"
+        android:id="@+id/empty_text"
+        android:layout_marginTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="全速加载中。。。请稍后"
+        android:textSize="20sp"
+        android:textColor="@color/color_tab_title"
+        />
+</LinearLayout>
+</LinearLayout>

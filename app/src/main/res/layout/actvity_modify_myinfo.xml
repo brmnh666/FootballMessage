@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/bizhi_modify"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/details_top_bar_layout"></include>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:background="#80FFFFFF"
+    android:layout_height="200dp"
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon_head"
+
+        />
+</LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+    <!--         账号名      -->
+    <LinearLayout
+        android:id="@+id/ll_modify_info_name"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"
+            android:text="账号名"
+            android:textColor="@color/color_black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:gravity="right">
+            <TextView
+                android:id="@+id/tv_modify_info_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/color_black"
+                android:paddingRight="20dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--         账号名      -->
+
+
+
+
+
+    <!--         手机号      -->
+    <LinearLayout
+        android:id="@+id/ll_modify_info_phone"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"
+            android:text="手机"
+            android:textColor="@color/color_black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+            <TextView
+                android:id="@+id/tv_modify_info_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/color_black"
+                android:paddingRight="20dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--         手机号      -->
+
+
+
+
+    <!--         生日      -->
+    <LinearLayout
+
+        android:id="@+id/ll_modify_info_birthday"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"
+            android:text="生日"
+            android:textColor="@color/color_black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+            <TextView
+                android:id="@+id/tv_modify_info_birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/color_black"
+                android:paddingRight="20dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--         生日     -->
+
+            <!--         性别      -->
+            <LinearLayout
+
+                android:id="@+id/ll_modify_info_sex"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="20dp"
+                    android:textSize="20sp"
+                    android:text="性别"
+                    android:textColor="@color/color_black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right">
+                    <TextView
+                        android:id="@+id/tv_modify_info_sex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/color_black"
+                        android:paddingRight="20dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--         性别      -->
+
+
+    <!--         所在地      -->
+    <LinearLayout
+        android:id="@+id/ll_modify_info_adress"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"
+            android:text="地址"
+            android:textColor="@color/color_black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+            <TextView
+                android:id="@+id/tv_modify_info_adress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/color_black"
+                android:paddingRight="20dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--         所在地      -->
+
+
+
+
+    <!--         保存修改      -->
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_modfiy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mask_tags_13"
+            android:textSize="15sp"
+            android:textColor="@color/color_white"
+            android:text="修改"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+    </LinearLayout>
+
+    <!--         保存修改      -->
+
+
+            <!--         退出      -->
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/mask_tags_16"
+                    android:textSize="15sp"
+                    android:textColor="@color/color_white"
+                    android:text="退出登录"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    />
+
+            </LinearLayout>
+            <!--         退出      -->
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
